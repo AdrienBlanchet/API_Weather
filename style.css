@@ -39,26 +39,30 @@ input[type="text"]{
 }
 
 .result{
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 2fr 3fr;
     grid-template-rows: 1fr 2fr;
     display: grid;
     grid-template-areas: "titre titre"
                          "list  img";
     grid-gap: 5px;
                 
-    width: 50%;
-    height: 40%;
+    max-width: 70%;
+    height: 60%;
     border: 1px solid black;
     border-radius: 10px;
     margin: 10px auto;
 }
 
-.sous-titre{
+.global_weather{
     grid-area: titre;
     width: 100%;
     height: 100%;
     background-color: aqua;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .list{
@@ -67,6 +71,15 @@ input[type="text"]{
     height: 100%;
     background-color: aqua;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.list > ul{
+    list-style: none;
+    margin-top: -15%;
 }
 
 .icon{
@@ -75,4 +88,7 @@ input[type="text"]{
     height: 100%;
     background-color: aqua;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
