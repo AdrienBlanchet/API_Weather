@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Arial;
 }
 
 body{
@@ -35,7 +36,8 @@ input[type="text"]{
     width: 40%;
     margin-top: 20px;
     text-align: center;
-    box-shadow: 2px 2px;
+    
+    /* box-shadow: 2px 2px; */
 }
 
 .result{
@@ -48,7 +50,6 @@ input[type="text"]{
                 
     max-width: 70%;
     height: 60%;
-    border: 1px solid black;
     border-radius: 10px;
     margin: 10px auto;
 }
@@ -57,38 +58,88 @@ input[type="text"]{
     grid-area: titre;
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    
+}
+.global_weather h2{
+    margin-left: 20px;
+}
+
+.global_weather p{
+    transform: translateX(-50%);
+    font-size: 2em;
+    font-family:Arial;
+    font-weight: bold;
+    
+}
+.icon_weather{
+    margin-right: 20px;
+    width: 9vw;
 }
 
 .list{
+    
     grid-area: list;
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
+    font-size: 2.5em;
     display: flex;
     align-items: center;
     justify-content: center;
     
-}
-
-.list > ul{
-    list-style: none;
-    margin-top: -15%;
+    
 }
 
 .icon{
-    grid-area: img;
+    /* grid-area: img; */
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    justify-items: center;
     align-items: center;
+
 }
+
+        .button {
+            box-shadow:inset 0px 1px 0px 0px #efdcfb;
+            background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+            background-color:#dfbdfa;
+            border-radius:6px;
+            border:1px solid #c584f3;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:15px;
+            font-weight:bold;
+            padding:6px 24px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #9752cc;
+            height: 80%;
+            width: 80%;
+
+           
+        }
+        .button:hover {
+            background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+            background-color:#bc80ea;
+        }
+        
+            
+        
+          /* on génère un élément :after lors du survol et du focus :*/
+          
+         
+       
