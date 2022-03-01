@@ -23,7 +23,7 @@ let unité;
 
 
 async function fetchWeather(town) {
-    await fetch(`http://api.openweathermap.org/data/2.5/find?q=${town}&units=metric&lang=fr&appid=ad833c311d7223b6bcf85c641143f86e`)
+    await fetch(`https://api.openweathermap.org/data/2.5/find?q=${town}&units=metric&lang=fr&appid=ad833c311d7223b6bcf85c641143f86e`)
       .then((res) => res.json())
       .then((data) => {
         
