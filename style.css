@@ -70,7 +70,6 @@ input[type="text"]{
 }
 
 .global_weather p{
-    transform: translateX(-50%);
     font-size: 2em;
     font-family:Arial;
     font-weight: bold;
@@ -107,15 +106,16 @@ input[type="text"]{
     display: grid;
     justify-items: center;
     align-items: center;
+    
 
 }
 
         .button {
             box-shadow:inset 0px 1px 0px 0px #efdcfb;
-            background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
-            background-color:#dfbdfa;
+            background:linear-gradient(to bottom, #757dec 5%, #5e56d1 100%);
+            background-color:#3f3db6;
             border-radius:6px;
-            border:1px solid #c584f3;
+            border:1px solid #8684f3;
             display:flex;
             justify-content: center;
             align-items:center;
@@ -136,7 +136,7 @@ input[type="text"]{
             background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
             background-color:#bc80ea;
         }
-        
+       
             
         
           /* on génère un élément :after lors du survol et du focus :*/
