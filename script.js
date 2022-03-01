@@ -68,39 +68,39 @@ let afficher = () => {
   switch (icon) {
       case '01n' :
       case '01d' :
-        image.setAttribute('src', 'http://openweathermap.org/img/wn/01d@2x.png');
+        image.setAttribute('src', 'https://openweathermap.org/img/wn/01d@2x.png');
         break;
       case '02n':
       case '02d' :
-        image.setAttribute('src', 'http://openweathermap.org/img/wn/02d@2x.png');
+        image.setAttribute('src', 'https://openweathermap.org/img/wn/02d@2x.png');
         break;
       case '03n':
       case '03d' :
-        image.setAttribute('src', 'http://openweathermap.org/img/wn/03d@2x.png');
+        image.setAttribute('src', 'https://openweathermap.org/img/wn/03d@2x.png');
         break;
       case '04n':
       case '04d' :
-        image.setAttribute('src', 'http://openweathermap.org/img/wn/04d@2x.png');
+        image.setAttribute('src', 'https://openweathermap.org/img/wn/04d@2x.png');
       break;
       case '09n':
       case '09d' :
-        image.setAttribute('src', 'http://openweathermap.org/img/wn/09d@2x.png');
+        image.setAttribute('src', 'https://openweathermap.org/img/wn/09d@2x.png');
       break;
       case '10n':
       case '10d' :
-        image.setAttribute('src', 'http://openweathermap.org/img/wn/10d@2x.png');
+        image.setAttribute('src', 'https://openweathermap.org/img/wn/10d@2x.png');
       break;
       case '11n':
       case '11d' :
-        image.setAttribute('src', 'http://openweathermap.org/img/wn/11d@2x.png');
+        image.setAttribute('src', 'https://openweathermap.org/img/wn/11d@2x.png');
       break;
       case '13n':
       case '13d' :
-        image.setAttribute('src', 'http://openweathermap.org/img/wn/13d@2x.png');
+        image.setAttribute('src', 'https://openweathermap.org/img/wn/13d@2x.png');
       break;
       case '50n':
       case '50d' :
-        image.setAttribute('src', 'http://openweathermap.org/img/wn/50d@2x.png');
+        image.setAttribute('src', 'https://openweathermap.org/img/wn/50d@2x.png');
       break;
       default:
   }
